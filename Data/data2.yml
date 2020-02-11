@@ -1,0 +1,8 @@
+#锚点
+info: &data
+  name: "张三"
+  phone: 13248071666
+
+address:
+  <<: *data
+  detail: "航头路18号"

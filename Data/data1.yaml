@@ -1,0 +1,60 @@
+#name: "lili"  #yaml文件的每一个冒号后必须跟空格
+#sex : 男   #会自动转换为python数据类型
+
+#---对象----
+#info: {"name":"lzl","sex":"男"}  #值为python中的字典
+###大小写
+#Info: {"name":"lzl","sex":"男"}
+
+#缩进表示层级关系,相同层级元素左对齐
+#info:
+#  name: "lzl"
+#  sex: "男"
+
+#---数组----
+#yaml文件支持列表格式
+#data:
+#  - 1
+#  - 2
+#python 列表类型
+#data: [1,2]
+
+#模拟json {"name":[{"ke1:"value1"},{"ke2:"value2"}]}
+#name:
+#  - ke1: value1
+#  - ke2: value2
+
+#---纯量----
+#布尔值
+#yaml文件格式
+#tr1: true
+#fa1: false
+#python 布尔值
+#tr2: True
+#fa2: False
+
+#整数和浮点数
+#ind: 122
+#flo: 12.00001
+
+#空类型
+#yaml语法
+#data1: ~
+##值为空
+#data4:
+#data5: Null
+#data6: null
+
+#python类型
+#data2: None
+#data3: none
+#data7: ""
+
+#日期类型
+#年月日
+#date1: 2020-1-11
+##年月日 时分秒
+#data2: 2020-11-11 11:11:11
+##时分秒
+#data3: 11:11:11
+

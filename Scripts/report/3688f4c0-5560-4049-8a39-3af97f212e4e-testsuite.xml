@@ -1,0 +1,55 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1581482009636" stop="1581482009672">
+  <name>Scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1581482009636" status="failed" stop="1581482009667">
+      <name>test_sum02.TestSum.test_s[4-5-6]</name>
+      <failure>
+        <message>AssertionError: assert (4 + 5) == 6</message>
+        <stack-trace>self = &lt;Scripts.test_sum02.TestSum object at 0x00000176544C2FD0&gt;, a = 4, b = 5
+c = 6
+
+    @pytest.mark.parametrize("a,b,c",get_yaml())
+    def test_s(self,a,b,c):
+        print("\n{}+{}={}".format(a,b,c))
+&gt;       assert a+b==c
+E       assert (4 + 5) == 6
+
+test_sum02.py:19: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19620-MainThread"/>
+        <label name="host" value="DESKTOP-NLDM2NU"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581482009668" status="passed" stop="1581482009670">
+      <name>test_sum02.TestSum.test_s[1-2-3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19620-MainThread"/>
+        <label name="host" value="DESKTOP-NLDM2NU"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581482009671" status="passed" stop="1581482009672">
+      <name>test_sum02.TestSum.test_s[2-3-5]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="19620-MainThread"/>
+        <label name="host" value="DESKTOP-NLDM2NU"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

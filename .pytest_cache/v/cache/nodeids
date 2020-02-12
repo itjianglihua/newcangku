@@ -1,5 +1,5 @@
 [
-  "Scripts/test_sum02.py::TestSum::()::test_s[2-3-5]",
   "Scripts/test_sum02.py::TestSum::()::test_s[4-5-6]",
-  "Scripts/test_sum02.py::TestSum::()::test_s[1-2-3]"
+  "Scripts/test_sum02.py::TestSum::()::test_s[1-2-3]",
+  "Scripts/test_sum02.py::TestSum::()::test_s[2-3-5]"
 ]

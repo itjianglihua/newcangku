@@ -1,0 +1,26 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1581439614188" stop="1581439614188">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1581439614188" status="broken" stop="1581439614188">
+      <name>test_sum02</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>Scripts\test_sum02.py:15: in &lt;module&gt;
+    class TestSum:
+Scripts\test_sum02.py:16: in TestSum
+    @pytest.mark.parametrize("a,b,c",get_yaml())
+Scripts\test_sum02.py:8: in get_yaml
+    data = GetData().get_yaml_data("sum.yml")
+Base\getData.py:4: in get_yaml_data
+    with open("../Data" + os.sep + yaml_name, "r")as f:
+E   FileNotFoundError: [Errno 2] No such file or directory: '../Data\\sum.yml'</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
